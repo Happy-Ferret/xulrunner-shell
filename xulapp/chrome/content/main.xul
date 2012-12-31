@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window
+  id="helloworld-window"
+  title="Hello, World!"
+  orient="horizontal"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script src="chrome://main/content/main.js"/>
+
+  <vbox id="main" flex="1">
+ 
+  </vbox>
+
+</window>

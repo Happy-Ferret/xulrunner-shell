@@ -1,0 +1,7 @@
+// prepare to load resource alias
+var ioService = Components.classes["@mozilla.org/network/io-service;1"]
+                .getService(Components.interfaces.nsIIOService);
+var resProt = ioService.getProtocolHandler("resource")
+             .QueryInterface(Components.interfaces.nsIResProtocolHandler);
+var aliasFile = Components.classes["@mozilla.org/file/local;1"]
+               .createInstance(Components.interfaces.nsILocalFile);
