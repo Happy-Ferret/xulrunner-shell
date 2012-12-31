@@ -11,3 +11,5 @@ These modules provide js bindings to some of Mozilla's internals allowing you to
 Some of them made their way into Mozilla's JetPack project but today they are hard to recognize from their original forms.
 
 Some of the modules like file.jsm and socket.jsm are unfinished and I'd like to still submit them some day to Mozilla Labs.
+
+There is some helper scripts here as well that help you to test the modules from the command line.
